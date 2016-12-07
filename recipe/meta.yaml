@@ -15,7 +15,7 @@ build:
   rpaths:
     - lib  # [unix]
     - lib/python{{ environ['PY_VER'] }}/site-packages/pyarrow  # [unix]
-  skip: true  # [not linux]
+  skip: true  # [win]
 
 requirements:
   build:
